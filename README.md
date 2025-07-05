@@ -1,20 +1,20 @@
-# AI Resume Screener (NLP Project)
+# AI Resume Screener (No SpaCy Version)
 
-This app uses Natural Language Processing (NLP) to match resumes against job descriptions using TF-IDF and cosine similarity.
+This is a simplified AI Resume Screener that matches a candidate's resume against a job description using basic NLP techniques.
 
-## Features
-- Upload resume in PDF format
-- Paste job description
-- Get a similarity match score
+## 🚀 Features
+- PDF resume reader
+- Job description text comparison
+- Match scoring using TF-IDF and cosine similarity
+- Streamlit interface
 
-## Technologies Used
+## 🛠 Tech Stack
 - Python
 - Streamlit
-- SpaCy
 - scikit-learn
 - PyPDF2
 
-## Run It Locally
+## 📦 How to Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
